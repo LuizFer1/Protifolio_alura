@@ -1,0 +1,70 @@
+.contato{
+    background-color: #EAF2FD;
+    padding: 5rem;
+}
+.contato__container{
+    display: flex;
+    justify-content: stretch;
+    height: 600px;
+    width: 100%;
+}
+.contato__container--img{
+    background-image: url('../img/business-person-making-a-phone-call-svgrepo-com.svg');
+    height: 500px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contato__formulario{
+    display:flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+
+}  
+.contato__titulo{
+    font-size: 1.75rem;
+    color: #464646;
+    text-transform: capitalize;
+    font-family: Raleway;
+    font-weight: 700;
+}
+.contato__texto{
+    color: #464646;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 500;
+}
+.contato__input{
+    height: 46px;
+    align-self: stretch;
+    border: none;
+    padding: 0 0.5rem;
+}
+.contato__textarea{
+    align-self: stretch;
+    border: none;
+    padding: 0 0.5rem;
+
+    font-size: 1rem;
+    resize:none;
+}
+.contato__textarea::placeholder, .contato__input::placeholder{
+    text-transform: capitalize;
+}
+.botao{
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #EAF2FD;
+
+    width: 50%;
+    text-decoration: none; 
+    line-height: 1rem;
+    font-size: large;
+    text-align: center;
+    justify-self: center;
+
+    padding: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}

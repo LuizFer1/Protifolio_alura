@@ -1,0 +1,80 @@
+.projetos{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+
+}
+.projetos__titulo{
+    font-size: 2.5rem;
+    color: #464646;
+    text-transform: capitalize;
+    margin-top: 2.5rem;
+}
+.projetos__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 5rem;
+}
+.projetos__card{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.card__img{
+    width: 752px;
+    height: 406px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1rem;
+    
+}
+.card__titulo{
+    font-size: 1.75rem;
+    color: #464646;
+    text-transform: capitalize;
+    font-family: Raleway;
+    font-weight: 700;
+}
+.card__texto{
+    color: #464646;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 500;
+}
+.card__buttons, .card__texto, .card__titulo{
+    margin-top:0.5rem;
+}
+.card__buttons{
+    display: flex;
+    width: 300px;
+    height: 50px;
+}
+.card__repositorio, .card__pagina{
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+
+    width: 45%;
+    text-decoration: none; 
+    line-height: 1rem;
+    text-align: center;
+    justify-self: center;
+
+    padding: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.card__repositorio{
+    background-color:#ffffff;
+    margin-right: 1rem;
+    color: #2A7AE4;
+}
+.card__pagina{
+    color: #ffffff;
+}

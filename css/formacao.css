@@ -1,0 +1,49 @@
+.formacao{
+    width: 100%;
+    height: fit-content;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: #EAF2FD;
+    text-align: center;
+}
+.formacao__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.formacao__titulo{
+    font-size: 2.5rem;
+    color: #464646;
+    text-transform: capitalize;
+    margin-bottom: 2.5rem;
+}
+.formacao__img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 250px;
+    background: #ffffff;
+    
+    margin-bottom:0.9em;
+}
+.formacao__img{
+    width: 200px;
+    height: 200px;
+}
+.formacao__conteudo{
+    width: fit-content;
+    text-align: left;
+}
+.formacao__curso{
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 1.45rem;
+    color: #464646;
+}
+.formacao__texto{
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 1rem;
+    color: #464646;
+}
